@@ -14,9 +14,6 @@ function ResetPassword() {
     const { id, token } = useParams();
     const navigate = useNavigate()
 
-    console.log(id);
-    console.log(token);
-
      //token validation after the link clicked from email
     const tokenValidation = async () => {
         try {

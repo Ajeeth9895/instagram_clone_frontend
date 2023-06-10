@@ -34,7 +34,6 @@ function Profile() {
         if (changePic) {
             setChangePic(false)
         } else {
-            console.log('else called');
             setChangePic(true)
         }
     }

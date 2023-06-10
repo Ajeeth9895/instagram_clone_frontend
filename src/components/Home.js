@@ -28,7 +28,7 @@ function Home() {
     }
   }
 
-  console.log(value);
+
 
   //get all post
   const getPosts = async () => {
@@ -39,7 +39,6 @@ function Home() {
         }
       })
 
-      console.log(response);
       setValue(response.data.posts)
       if (response === 200) {
 

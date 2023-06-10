@@ -30,8 +30,6 @@ function PostDetails(props) {
         }
     }
 
-    console.log(props);
-
 
     return (
         <div className='showComment'>

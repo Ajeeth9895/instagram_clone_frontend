@@ -11,7 +11,7 @@ import Navigationbar from './components/Navigationbar';
 import ForgotPassword from './components/ForgotPassword';
 import ResetPassword from './components/ResetPassword';
 
-export const url = "http://localhost:8000"
+export const url = "https://instagram-clone-h3o0.onrender.com"
 
 
 
