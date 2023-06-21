@@ -27,8 +27,6 @@ function LoginPage() {
                 password: values.password
             })
 
-            console.log(res.data.user);
-
             if (res.status === 200) {
                 sessionStorage.setItem('token', res.data.token)
                 sessionStorage.setItem('profile', res.data.user.photo)

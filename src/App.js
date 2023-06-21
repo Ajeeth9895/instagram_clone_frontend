@@ -14,7 +14,6 @@ import ResetPassword from './components/ResetPassword';
 export const url = "https://instagram-clone-h3o0.onrender.com"
 
 
-
 function App() {
   return <>
     <BrowserRouter>
